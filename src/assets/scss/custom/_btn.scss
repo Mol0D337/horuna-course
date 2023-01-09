@@ -1,0 +1,21 @@
+.button {
+  height: 60px;
+  border: none;
+  outline: none;
+  background: $yellow;
+  border-radius: 110px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 48px;
+  padding: 0 30px;
+  color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  &--border {
+    border: 2px solid $yellow;
+    background: transparent;
+    color: $yellow;
+  }
+}

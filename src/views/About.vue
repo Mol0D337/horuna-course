@@ -1,10 +1,18 @@
 <template>
+  <div class="bcg">
+    <div class="blob"></div>
+    <div class="wrapper">
+      <Header />
 
+    </div>
+  </div>
 </template>
 
 <script>
+import Header from "@/components/Header";
 export default {
-  name: "About"
+  name: "About",
+  components: {Header}
 }
 </script>
 
