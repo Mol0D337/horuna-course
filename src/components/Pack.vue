@@ -120,6 +120,7 @@ export default {
     align-items: flex-end;
     justify-content: space-between;
     margin-bottom: 100px;
+    margin-top: 75px;
   }
 }
 </style>
