@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header wrapper">
     <router-link tag="div" to="/" class="header__item">
       <svg width="56" height="60" viewBox="0 0 56 60" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M55.4415 59.9877L43.4784 0L31.4908 3.90554L24.5791 33.4743L17.3101 7.49076L0 12.4559L11.1992 59.9877L30.7639 60L27.4497 45.6715L42.1602 59.9877H55.4415Z" fill="#EEE919"/>
@@ -63,7 +63,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-top: 35px;
   &__item {
 
   }
