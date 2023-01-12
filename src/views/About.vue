@@ -1,5 +1,5 @@
 <template>
-  <div class="bcg">
+  <div class="bcg" data-view>
     <div class="blob"></div>
     <Header />
     <MainBlock />
