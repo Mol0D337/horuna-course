@@ -3,14 +3,6 @@ module.exports = {
     disableHostCheck: true,
   },
   productionSourceMap: false,
-  pluginOptions: {
-    i18n: {
-      locale: 'uk',
-      fallbackLocale: 'uk',
-      localeDir: 'locales',
-      enableInSFC: true,
-    },
-  },
   css: {
     sourceMap: true,
     loaderOptions: {

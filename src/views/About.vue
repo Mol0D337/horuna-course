@@ -4,7 +4,7 @@
     <Header />
     <MainBlock />
     <Trailer />
-    <Course />
+    <Course class="desktop"/>
     <Info />
     <Pack />
     <Demo />
@@ -28,7 +28,3 @@ export default {
   components: {Faq, Demo, Pack, Info, Footer, Header, MainBlock, Trailer, Course}
 }
 </script>
-
-<style scoped>
-
-</style>

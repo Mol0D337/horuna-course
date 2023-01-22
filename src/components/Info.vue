@@ -24,39 +24,3 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 75px;
-  &__left {
-    width: 50%;
-    margin-right: 150px;
-    img {
-      background: rgba(24, 26, 32, 0.5);
-      border: 2px solid $yellow;
-      padding: 35px;
-    }
-  }
-  &__right {
-    width: 50%;
-    &_title {
-      font-size: 20px;
-    }
-    &_text {
-      font-weight: 300;
-      font-size: 30px;
-      line-height: 60px;
-      text-transform: uppercase;
-      color: $yellow;
-      margin: 50px 0;
-    }
-    &_name {
-      font-size: 20px;
-      color: $gray;
-      margin-top: 25px;
-    }
-  }
-}
-</style>

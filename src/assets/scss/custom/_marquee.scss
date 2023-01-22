@@ -1,0 +1,48 @@
+@keyframes marquee {
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%);}
+}
+
+.marquee {
+  width: 100vw;
+  height: 120px;
+  transform: translateY(-120px);
+  background: rgba(24, 26, 32, 0.5);
+  border-top: 2px solid $yellow;
+  border-bottom: 2px solid $yellow;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  height: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+  position: absolute;
+  transition: background-color 300ms ease, color 300ms ease;
+  white-space: nowrap;
+  display: flex;
+
+  & .text {
+    animation: marquee 50000ms linear infinite;
+    align-items: center;
+    display: inline-flex;
+    will-change: transform;
+
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $yellow;
+
+    &.-twox {
+      animation-duration: 25000ms;
+    }
+  }
+
+  &:hover {
+    background-color: $black;
+    cursor: pointer;
+  }
+}

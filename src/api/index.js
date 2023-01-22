@@ -10,8 +10,7 @@ const APIService = axios.create({
     },
 });
 
-export const Register = (code, params) => {return APIService.post(`/register/${code}`, params)}; //
-export const ConfirmRegister = (params) => {return APIService.post(`/register/confirm`, params)}; //
+export const PaymentCheck = (params) => {return APIService.post(`/payment/check`, params)}; //
 
 
 

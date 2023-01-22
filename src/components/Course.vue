@@ -9,7 +9,7 @@
         <img src="../assets/image/course.png" alt="Stas Horuna">
         <div class="course__right_sign">
           <div class="course__right_sign--title">START NOW</div>
-          <button class="button">SIGN UP</button>
+          <button class="button" v-scroll-to="'#buy'">buy</button>
           <div>Starting at $75 for all exercises</div>
         </div>
       </div>
@@ -36,40 +36,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-.course {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 100px;
-  &__left {
-    width: 100%;
-    margin-right: 50px;
-  }
-  &__right {
-    //width: 30%;
-    position: relative;
-    &_sign {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 270px;
-      background: rgba(24, 26, 32, 0.5);
-      border: 2px solid $yellow;
-      padding: 0 45px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      &--title {
-        font-weight: 300;
-        font-size: 30px;
-        text-transform: uppercase;
-        color: $yellow;
-      }
-    }
-  }
-
-}
-</style>
