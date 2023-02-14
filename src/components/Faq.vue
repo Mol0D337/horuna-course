@@ -1,7 +1,7 @@
 <template>
   <div class="faq wrapper">
     <div class="faq__left">
-      <div class="title">faq</div>
+      <h2 class="title">faq</h2>
       <div class="faq__left_text">
         We have prepared answers
         to frequently asked questions.

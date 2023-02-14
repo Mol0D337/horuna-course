@@ -6,7 +6,7 @@
           <div class="demo__top">
             <div class="demo__top_left">
               <div class="demo__top_left_subtitle">can't decide?</div>
-              <div class="demo__top_left_title">TRY A DEMO</div>
+              <h2 class="demo__top_left_title">TRY A DEMO</h2>
               <div class="demo__top_left_text">
                 <button class="button" @click="$router.push({ name: 'Demo' })">try now</button>
                 <div>

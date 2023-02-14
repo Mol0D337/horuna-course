@@ -1,8 +1,8 @@
 <template>
   <div class="faq__accordion" :class="{'faq__accordion--active': visible}">
-    <div class="faq__accordion__question" :class="{'faq__accordion__question--active': visible}" @click="visible = !visible">
+    <h3 class="faq__accordion__question" :class="{'faq__accordion__question--active': visible}" @click="visible = !visible">
       {{ visible ? '–' : '+' }} {{ item.question }} #{{ index + 1 }}
-    </div>
+    </h3>
     <b-collapse class="faq__accordion__answer" v-model="visible" accordion="faq-accordion">
       {{ item.answer }}
     </b-collapse>

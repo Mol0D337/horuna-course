@@ -18,11 +18,11 @@
       </div>
 
       <div class="demo__video">
-        <div class="subtitle">Still can't decide?</div>
-        <div class="title yellow">
+        <h4 class="subtitle">Still can't decide?</h4>
+        <h3 class="title yellow">
           Watch a special <br />
           video with Stas' advice
-        </div>
+        </h3>
       </div>
 
       <div class="demo__video--wrap" style="margin-bottom: 60px">

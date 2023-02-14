@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper" id="buy">
-    <div class="title">CHOOSE YOUR PACK</div>
+    <h2 class="title">CHOOSE YOUR PACK</h2>
     <div class="pack__wrap">
       <div class="pack pack--silver">
-        <div class="pack__header pack--silver_header">silver</div>
+        <h3 class="pack__header pack--silver_header">silver</h3>
         <div class="pack__body pack--silver_body">
           <div>→ 8 sections</div>
           <div>→ 56 exercises</div>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="pack pack--gold">
-        <div class="pack__header pack--gold_header">gold</div>
+        <h3 class="pack__header pack--gold_header">gold</h3>
         <div class="pack__body pack--gold_body">
           <div>→ 8 sections</div>
           <div>→ 56 exercises</div>
@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="pack pack--bronze">
-        <div class="pack__header pack--bronze_header">bronze</div>
+        <h3 class="pack__header pack--bronze_header">bronze</h3>
         <div class="pack__body pack--bronze_body">
           <div>→ 8 sections</div>
           <div>→ 56 exercises</div>

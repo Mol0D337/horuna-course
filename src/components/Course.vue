@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="title">COURSE SECTIONS</div>
+    <h2 class="title">COURSE SECTIONS</h2>
     <div class="course wrapper">
       <div class="course__left">
         <Accordion v-for="(item, index) in accordionData" :key="index" :item="item" :index="index"></Accordion>

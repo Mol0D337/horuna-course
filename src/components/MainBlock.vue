@@ -2,10 +2,10 @@
   <div>
     <main class="main wrapper">
       <div class="main__left">
-        <div class="main__left_title">
+        <h1 class="main__left_title">
           KARATE COURSE
           FROM <span class="yellow">STAS HORUNA</span>
-        </div>
+        </h1>
         <div class="main__left_subtitle">
           <img src="@/assets/image/medal.png" alt="Stas Horuna Medal">
           <a href="https://en.wikipedia.org/wiki/Stanislav_Horuna" target="_blank" class="yellow link">Wikipedia →</a>
