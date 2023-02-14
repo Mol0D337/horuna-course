@@ -1,0 +1,47 @@
+:root {
+  --plyr-color-main: #EEE919;
+  --plyr-control-icon-size: 22px;
+  --plyr-control-radius: 0px;
+  --plyr-control-toggle-checked-background: transparent;
+  --plyr-video-control-color-hover: #000000;
+  --plyr-menu-background: #131519;
+  --plyr-menu-color: #ffffff;
+  --plyr-menu-radius: 0px;
+  --plyr-range-thumb-height: 16px;
+  --plyr-range-track-height: 8px;
+  --plyr-tooltip-radius: 0px;
+  --plyr-font-family: 'Unbounded', monospace;
+}
+
+.plyr__progress .plyr__tooltip {
+  max-width: max-content !important;
+}
+
+.plyr__controls {
+  order: 1 !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  padding: 15px 25px !important;
+}
+.plyr__captions {
+  bottom: 20px !important;
+}
+
+@media(max-width: 1024px) {
+  :root {
+    --plyr-control-icon-size: 16px;
+    --plyr-range-thumb-height: 12px;
+    --plyr-range-track-height: 5px;
+  }
+
+  .plyr__captions {
+    bottom: -5px !important;
+  }
+
+  .plyr__controls {
+    padding: 5px !important;
+  }
+}

@@ -4,7 +4,6 @@ import VueScrollTo from 'vue-scrollto';
 import { BootstrapVue } from 'bootstrap-vue'
 import router from './router'
 import './plugins/vueAxios';
-import vuetify from '@/plugins/vuetify';
 
 Vue.use(BootstrapVue);
 Vue.use(VueScrollTo, {
@@ -25,6 +24,5 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  vuetify,
   render: h => h(App)
 }).$mount('#app')

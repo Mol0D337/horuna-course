@@ -26,6 +26,16 @@ const router = new VueRouter({
       component: () => import('../views/About.vue'),
     },
     {
+      path: '/demo',
+      name: 'Demo',
+      component: () => import('../views/Demo.vue'),
+    },
+    {
+      path: '/payment',
+      name: 'Payment',
+      component: () => import('../views/Payment.vue'),
+    },
+    {
       path: '/public-offer-contract',
       name: 'About',
       component: () => import('../views/PublicOfferContract.vue'),

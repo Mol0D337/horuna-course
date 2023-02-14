@@ -1,5 +1,5 @@
 <template>
-  <div class="faq__accordion">
+  <div class="faq__accordion" :class="{'faq__accordion--active': visible}">
     <div class="faq__accordion__question" :class="{'faq__accordion__question--active': visible}" @click="visible = !visible">
       {{ visible ? '–' : '+' }} {{ item.question }} #{{ index + 1 }}
     </div>

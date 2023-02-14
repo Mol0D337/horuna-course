@@ -40,7 +40,7 @@
           <div>→ 56 exercises</div>
           <div class="pack__footer">
             <div class="pack__num">$75</div>
-            <button class="button" @click="buy('BRONZE', 1)">buy</button>
+            <button class="button" @click="buy('BRONZE', 75)">buy</button>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ export default {
 
       const orderDate = Date.now();
 
-      const merchantSignature = CryptoJS.HmacMD5(`horuna_com;horuna.com;${orderReference};${orderDate};${amount};UAH;KARATE COURSE - ${pack} PACK;1;${amount}`, '0e6a69dabc5c9d2a541b2e8ea36b31bd2302c183').toString();
+      const merchantSignature = CryptoJS.HmacMD5(`horuna_com;horuna.com;${orderReference};${orderDate};${amount};USD;KARATE COURSE - ${pack} PACK;1;${amount}`, '0e6a69dabc5c9d2a541b2e8ea36b31bd2302c183').toString();
 
       const merchantSignatureStatus = CryptoJS.HmacMD5(`horuna_com;${orderReference}`, '0e6a69dabc5c9d2a541b2e8ea36b31bd2302c183').toString();
 
@@ -77,7 +77,7 @@ export default {
             orderReference,
             orderDate,
             amount,
-            currency: 'UAH',
+            currency: 'USD',
             orderTimeout: '49000',
             productName: `KARATE COURSE - ${pack} PACK`,
             productPrice: amount,

@@ -18,6 +18,8 @@ module.exports = (api, options) => {
         indexPath: path.join(__dirname, './dist', 'app.html'),
         routes: [
           '/',
+          '/demo',
+          '/payment',
           '/public-offer-contract',
         ], // List of routes to prerender and adding the routes for blog posts.
         ignoreJSErrors: true,

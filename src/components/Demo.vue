@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="desktop">
-      <div class="demo">
+      <div class="demo wrapper">
         <div class="wrapper">
           <div class="demo__top">
             <div class="demo__top_left">
               <div class="demo__top_left_subtitle">can't decide?</div>
               <div class="demo__top_left_title">TRY A DEMO</div>
               <div class="demo__top_left_text">
-                <button class="button">try now</button>
+                <button class="button" @click="$router.push({ name: 'Demo' })">try now</button>
                 <div>
                   get access <br/>
                   to 3 exercises for free
@@ -33,7 +33,7 @@
           <div class="demo__top_left_subtitle">can't decide?</div>
           <div class="demo__top_left_title">TRY A DEMO</div>
           <div class="demo__top_left_text">
-            <button class="button button--border">try now</button>
+            <button class="button button--border" @click="$router.push({ name: 'Demo' })">try now</button>
             <div>
               get access to 3 exercises for free
             </div>

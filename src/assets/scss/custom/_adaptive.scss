@@ -39,7 +39,7 @@
     line-height: 45px;
   }
   .pack {
-    width: 310px;
+    width: 32%;
   }
   .demo__top_left_text {
     display: flex;
@@ -196,6 +196,10 @@
     font-size: 24px;
     line-height: 40px;
   }
+  .subtitle {
+    font-size: 14px;
+    line-height: 28px;
+  }
   .pack__wrap {
     flex-direction: column;
     margin-top: 35px;
@@ -272,5 +276,70 @@
     margin-bottom: 0;
     font-size: 12px;
     line-height: 26px;
+  }
+  .payment {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    &__right {
+      margin-left: 0;
+      &_title {
+        font-size: 20px;
+        line-height: 36px;
+        margin: 20px 0 10px 0;
+      }
+      &_text {
+        font-size: 12px;
+        line-height: 22px;
+      }
+      svg {
+        width: 140px;
+        height: 70px;
+      }
+    }
+    &__item {
+      flex-direction: column;
+      align-items: flex-start;
+      &_child {
+        width: 100%;
+      }
+      &_title {
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 10px;
+      }
+      img {
+        margin-top: 30px;
+      }
+    }
+  }
+  .video--player-wrap {
+    width: 100%;
+  }
+  .demo__video--wrap {
+    margin-top: 20px;
+  }
+  .form__video {
+    width: 100%;
+    padding: 0 15px 15px 15px;
+    &_title {
+      font-size: 16px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    &_text {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .demo__video {
+    padding-top: 0;
+    .subtitle {
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+  .demo__video--wrap {
+    margin-bottom: 30px !important;
   }
 }
