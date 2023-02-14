@@ -1,7 +1,14 @@
 <template>
   <div class="trailer" id="trailer">
     <div class="trailer__left desktop">
-      <VideoPlayer class="w-100" emberID="798788791" />
+      <video
+        playsinline
+        muted
+        autoplay
+        loop
+        poster="@/assets/image/poster.png"
+        src="@/assets/video/trailer.mp4"
+      />
     </div>
     <div class="trailer__right">
       <div class="trailer__right_gray">course content</div>
@@ -9,7 +16,14 @@
       <div class="trailer__right_title">unique exercises</div>
 
       <div class="trailer__left mobile">
-        <VideoPlayer class="w-100" emberID="798788791" id="two" />
+        <video
+          playsinline
+          muted
+          autoplay
+          loop
+          poster="@/assets/image/poster.png"
+          src="@/assets/video/trailer.mp4"
+        />
       </div>
 
       <div class="trailer__right_ul">
@@ -28,10 +42,8 @@
 </template>
 
 <script>
-import VideoPlayer from "@/components/VideoPlayer";
 export default {
   name: "Trailer",
-  components: {VideoPlayer}
 }
 </script>
 

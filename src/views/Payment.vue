@@ -95,7 +95,7 @@ export default {
   components: { Pack, Footer, Header, VideoPlayer},
   methods: {
     openSite() {
-      window.open('https://onlysense.app/horuna', 'blank')
+      window.open('https://onlysense.app/horuna', '_blank')
     }
   }
 }
