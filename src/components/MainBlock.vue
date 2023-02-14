@@ -7,7 +7,7 @@
           FROM <span class="yellow">STAS HORUNA</span>
         </h1>
         <div class="main__left_subtitle">
-          <img src="@/assets/image/medal.png" alt="Stas Horuna Medal">
+          <img src="@/assets/image/medal.webp" alt="Stas Horuna Medal">
           <a href="https://en.wikipedia.org/wiki/Stanislav_Horuna" target="_blank" class="yellow link">Wikipedia →</a>
         </div>
         <div class="main__left_text">
@@ -20,7 +20,7 @@
         <button v-scroll-to="'#trailer'" class="button button--border">trailer</button>
       </div>
       <div class="main__right">
-        <img src="@/assets/image/main.png" alt="Stas Horuna">
+        <img src="@/assets/image/main.webp" alt="Stas Horuna">
       </div>
     </main>
 

@@ -6,7 +6,7 @@
         muted
         autoplay
         loop
-        poster="@/assets/image/poster.png"
+        poster="@/assets/image/poster.webp"
         src="@/assets/video/trailer.mp4"
       />
     </div>
@@ -21,7 +21,7 @@
           muted
           autoplay
           loop
-          poster="@/assets/image/poster.png"
+          poster="@/assets/image/poster.webp"
           src="@/assets/video/trailer.mp4"
         />
       </div>

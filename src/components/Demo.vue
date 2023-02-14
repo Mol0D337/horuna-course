@@ -17,14 +17,14 @@
 
             </div>
             <div class="demo__top_right">
-              <img src="@/assets/image/demo-1.png" alt="Banner Course">
+              <img src="@/assets/image/demo-1.webp" alt="Banner Course">
             </div>
           </div>
           <div class="demo__bottom">
-            <img src="@/assets/image/demo-2.png" alt="Banner Course">
+            <img src="@/assets/image/demo-2.webp" alt="Banner Course">
           </div>
         </div>
-        <img class="demo__image" src="@/assets/image/demo-3.png" alt="Banner Course">
+        <img class="demo__image" src="@/assets/image/demo-3.webp" alt="Banner Course">
       </div>
     </div>
     <div class="mobile">
@@ -40,7 +40,7 @@
           </div>
 
         </div>
-        <img src="@/assets/image/demo-mobile.png" alt="Banner Course">
+        <img src="@/assets/image/demo-mobile.webp" alt="Banner Course">
       </div>
     </div>
   </div>

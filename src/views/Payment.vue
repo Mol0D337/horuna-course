@@ -42,13 +42,13 @@
 
         </div>
         <div class="payment__item_child">
-          <img src="@/assets/image/payment-1.png" alt="image">
+          <img src="@/assets/image/payment-1.webp" alt="image">
         </div>
       </div>
 
       <div class="payment__item">
         <div class="payment__item_child desktop">
-          <img src="@/assets/image/payment-2.png" alt="image">
+          <img src="@/assets/image/payment-2.webp" alt="image">
         </div>
         <div class="payment__item_child">
           <div class="payment__item_title">02 <span>|</span> e-mail to sign in</div>
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="payment__item_child mobile">
-          <img src="@/assets/image/payment-2.png" alt="image">
+          <img src="@/assets/image/payment-2.webp" alt="image">
         </div>
 
       </div>
@@ -74,7 +74,7 @@
 
         </div>
         <div class="payment__item_child">
-          <img src="@/assets/image/payment-3.png" alt="image">
+          <img src="@/assets/image/payment-3.webp" alt="image">
         </div>
       </div>
     </div>

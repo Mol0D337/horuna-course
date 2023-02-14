@@ -1,7 +1,7 @@
 <template>
   <div class="info wrapper">
     <div class="info__left">
-      <img src="@/assets/image/info.png" alt="Stas Horuna">
+      <img src="@/assets/image/info.webp" alt="Stas Horuna">
     </div>
     <div class="info__right">
       <h2 class="info__right_title">Why i'm create this course?</h2>

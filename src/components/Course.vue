@@ -6,7 +6,7 @@
         <Accordion v-for="(item, index) in accordionData" :key="index" :item="item" :index="index"></Accordion>
       </div>
       <div class="course__right">
-        <img src="../assets/image/course.png" alt="Stas Horuna">
+        <img src="../assets/image/course.webp" alt="Stas Horuna">
         <div class="course__right_sign">
           <div class="course__right_sign--title">START NOW</div>
           <button class="button" v-scroll-to="'#buy'">buy</button>
