@@ -17,7 +17,7 @@
       <h3>03 | Rights and obligations of the Executor</h3>
       <p>3.1. The performer undertakes:</p>
       <p>3.1.1. On the basis of this Agreement and after payment of the cost of the training plan selected by the Customer, provide him with training services within the period specified by the selected plan.</p>
-      <p>3.1.2. HERE Provide the User with online support via e-mail or a chat that will be created (Viber, Telegram) or another communication channel of the Contractor's choice.</p>
+      <p>3.1.2. Provide the User with online support via chat that will be created in a Telegram or Whatsapp or another communication channel of the Contractor's choice.</p>
       <p>3.1.3. To ensure the continuity of the educational process in accordance with the selected Customer's educational plan.</p>
       <p>3.1.4. Provide the Customer with the necessary methodical materials.</p>
       <p>3.1.5. Provide services to the Customer in accordance with the terms of this Agreement.</p>
